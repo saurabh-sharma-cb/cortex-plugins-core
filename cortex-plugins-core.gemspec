@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["spec/**/*"]
   s.require_paths = ["lib"]
 
-  s.add_dependency "rails", ">= 5"
+  s.add_dependency "rails", ">= 6"
   s.add_dependency "cells", "~> 4.0"
   s.add_dependency "cells-rails", "~> 0.0"
   s.add_dependency "cells-haml", "~> 0.0"
