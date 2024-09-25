@@ -21,18 +21,18 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency "rails", ">= 5"
-  s.add_dependency "cells", "~> 4.1"
-  s.add_dependency "cells-rails", "~> 0.0"
-  s.add_dependency "cells-haml", "~> 0.0"
-  s.add_dependency "jsonb_accessor", "~> 1.0"
+  s.add_dependency "cells", "~> 5.0"
+  s.add_dependency "cells-rails", "~> 1.0"
+  s.add_dependency "cells-haml", "~> 1.0"
+  s.add_dependency "jsonb_accessor", "~> 2.0"
 
   # AssetFieldType
-  s.add_dependency "shrine", "~> 2.11"
-  s.add_dependency "aws-sdk-s3", "~> 1.17"
-  s.add_dependency "mimemagic", "~> 0.3"
-  s.add_dependency "image_processing", "~> 1.6"
-  s.add_dependency "mini_magick", "~> 4.8"
-  s.add_dependency "fastimage", "~> 2.1"
-  s.add_dependency "image_optim", "~> 0.26"
-  s.add_dependency "image_optim_pack", "~> 0.5"
+  s.add_dependency "shrine", "~> 3.0"
+  s.add_dependency "aws-sdk-s3", "~> 2.0"
+  s.add_dependency "mimemagic", "~> 1.0"
+  s.add_dependency "image_processing", "~> 2.0"
+  s.add_dependency "mini_magick", "~> 5.0"
+  s.add_dependency "fastimage", "~> 3.0"
+  s.add_dependency "image_optim", "~> 2.0"
+  s.add_dependency "image_optim_pack", "~> 1.0"
 end
